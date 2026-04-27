@@ -286,10 +286,10 @@ p {
 }
 
 .our-team-list {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
 }
 
 .our-team-item {
@@ -1123,9 +1123,11 @@ color: #fff;
 }
 
 .our-team-list {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;   /* 🔥 ОБЯЗАТЕЛЬНО */
+    gap: 64px 24px;
 }
 
 .our-team-item {
