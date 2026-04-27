@@ -159,21 +159,15 @@ p {
     ),
     url("../images/Dark-bg.jpg");
 
-   background-size: cover;
-    background-position: 50% 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    max-width: 320px;
-    margin: 0 auto;
+  max-width: 320px;
+  margin: 0 auto;
 
-    min-height: 432px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
-
-    text-align: center;
+  padding: 112px 0; /* ← ВАЖНО: вместо flex */
+  text-align: center;
 }
 
 @media (min-resolution: 192dpi) {
@@ -189,13 +183,12 @@ p {
 .main-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
     max-width: 216px;
     margin: 0 auto 72px;
-    padding: 0;
 }
 
 .main-page-button {
@@ -418,7 +411,7 @@ p {
 }
 
 .our-portfolio-wrapper {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .bottom-text {
@@ -430,7 +423,7 @@ p {
 .ending {
     background-color: #2e2f42;
     color: #f4f4fd;
-     padding: 100px 0;
+     padding: 96px 0;
 }
 
 .ending-logo {
@@ -1105,6 +1098,7 @@ color: #fff;
 .main-title {
     font-size: 56px;
     max-width: 496px;
+    line-height: 1.07;
 }
 
 .mini-title {
@@ -1247,124 +1241,6 @@ color: #fff;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------ DESKTOP ------ */
 
 
@@ -1426,6 +1302,10 @@ main {
     text-align: left;
 }
 
+ .aligner {
+    gap: 76px;
+  }
+
 .feature-list {
    flex-wrap: nowrap;
    gap: 24px;
@@ -1480,6 +1360,10 @@ main {
 .social-link:hover,
 .social-link:focus {
     background-color: #404bbf;
+}
+
+.our-portfolio-wrapper {
+    padding: 120px 0;
 }
 
 .portfolio-image-wrapper {
@@ -1545,6 +1429,10 @@ main {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+
+.ending {
+   padding: 100px 0;
 }
 
 .footer-wrapper {
