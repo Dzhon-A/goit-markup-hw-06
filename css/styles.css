@@ -116,6 +116,8 @@ p {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  line-height: 1.17;       /* 🔥 обязательно */
+letter-spacing: 0.04em;
 }
 
 .nav-link:hover, 
@@ -166,7 +168,7 @@ p {
   max-width: 320px;
   margin: 0 auto;
 
-  padding: 112px 0; /* ← ВАЖНО: вместо flex */
+  padding: 72px 0; /* ← ВАЖНО: вместо flex */
   text-align: center;
 }
 
@@ -376,10 +378,6 @@ p {
 .portfolio-item {
     background: #fff;
     width: 100%;
-    box-shadow:
-        0 2px 1px rgba(46, 47, 66, 0.08),
-        0 1px 1px rgba(46, 47, 66, 0.16),
-        0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-image-wrapper {
@@ -1099,6 +1097,7 @@ color: #fff;
     font-size: 56px;
     max-width: 496px;
     line-height: 1.07;
+    margin: 0 auto 36px;
 }
 
 .mini-title {
@@ -1229,6 +1228,8 @@ color: #fff;
     padding: 0;
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.17;       /* 🔥 обязательно */
+    letter-spacing: 0.04em;
 }
 }
 
@@ -1335,6 +1336,8 @@ main {
 .features-text {
     text-align: left;
     margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .team-section-title {
