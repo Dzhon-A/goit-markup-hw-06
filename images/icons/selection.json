@@ -41,13 +41,13 @@
         }
       ],
       "properties": {
-        "order": 137,
-        "id": 2,
+        "order": 140,
+        "id": 1,
         "name": "antenna",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 0
     },
     {
@@ -280,13 +280,13 @@
         }
       ],
       "properties": {
-        "order": 136,
-        "id": 3,
+        "order": 141,
+        "id": 2,
         "name": "astronaut",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 1
     },
     {
@@ -349,13 +349,13 @@
         }
       ],
       "properties": {
-        "order": 135,
-        "id": 4,
+        "order": 142,
+        "id": 3,
         "name": "clock",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 2
     },
     {
@@ -428,13 +428,13 @@
         }
       ],
       "properties": {
-        "order": 134,
-        "id": 5,
+        "order": 143,
+        "id": 4,
         "name": "diagram",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 3
     },
     {
@@ -467,13 +467,13 @@
         }
       ],
       "properties": {
-        "order": 133,
-        "id": 6,
+        "order": 144,
+        "id": 5,
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 4
     },
     {
@@ -526,13 +526,13 @@
         }
       ],
       "properties": {
-        "order": 132,
-        "id": 7,
+        "order": 145,
+        "id": 6,
         "name": "instagram",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 5
     },
     {
@@ -585,13 +585,13 @@
         }
       ],
       "properties": {
-        "order": 131,
-        "id": 8,
+        "order": 146,
+        "id": 7,
         "name": "linkedin",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 6
     },
     {
@@ -624,13 +624,13 @@
         }
       ],
       "properties": {
-        "order": 130,
-        "id": 9,
+        "order": 147,
+        "id": 8,
         "name": "twitter",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 7
     },
     {
@@ -652,13 +652,13 @@
         {}
       ],
       "properties": {
-        "order": 129,
-        "id": 10,
+        "order": 148,
+        "id": 9,
         "name": "close-black",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 8
     },
     {
@@ -681,13 +681,13 @@
         {}
       ],
       "properties": {
-        "order": 128,
-        "id": 11,
+        "order": 149,
+        "id": 10,
         "name": "email-black",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
+      "setIdx": 0,
+      "setId": 5,
       "iconIdx": 9
     },
     {
@@ -710,14 +710,14 @@
         {}
       ],
       "properties": {
-        "order": 126,
-        "id": 13,
+        "order": 150,
+        "id": 11,
         "name": "phone-black",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
-      "iconIdx": 11
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 10
     },
     {
       "icon": {
@@ -743,14 +743,14 @@
         }
       ],
       "properties": {
-        "order": 124,
-        "id": 15,
+        "order": 151,
+        "id": 12,
         "name": "send",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
-      "iconIdx": 13
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 11
     },
     {
       "icon": {
@@ -771,14 +771,14 @@
         {}
       ],
       "properties": {
-        "order": 138,
-        "id": 1,
+        "order": 152,
+        "id": 13,
         "name": "person-black",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
-      "iconIdx": 14
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 12
     },
     {
       "icon": {
@@ -804,14 +804,48 @@
         }
       ],
       "properties": {
-        "order": 122,
-        "id": 0,
+        "order": 153,
+        "id": 14,
         "name": "accept",
         "prevSize": 32
       },
-      "setIdx": 1,
-      "setId": 3,
-      "iconIdx": 15
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 13
+    },
+    {
+      "icon": {
+        "paths": [
+          "M153.583 256.033c0-13.579 5.394-26.602 14.996-36.204s22.625-14.996 36.204-14.996h614.4c13.581 0 26.603 5.394 36.203 14.996 9.604 9.602 14.997 22.625 14.997 36.204s-5.393 26.602-14.997 36.204c-9.6 9.602-22.622 14.996-36.203 14.996h-614.4c-13.579 0-26.602-5.394-36.204-14.996s-14.996-22.625-14.996-36.204z",
+          "M153.583 512.034c0-13.581 5.394-26.603 14.996-36.203 9.602-9.604 22.625-14.997 36.204-14.997h614.4c13.581 0 26.603 5.393 36.203 14.997 9.604 9.6 14.997 22.622 14.997 36.203 0 13.577-5.393 26.603-14.997 36.203-9.6 9.604-22.622 14.997-36.203 14.997h-614.4c-13.579 0-26.602-5.393-36.204-14.997-9.602-9.6-14.996-22.626-14.996-36.203z",
+          "M153.583 768.034c0-13.581 5.394-26.603 14.996-36.203 9.602-9.604 22.625-14.997 36.204-14.997h614.4c13.581 0 26.603 5.393 36.203 14.997 9.604 9.6 14.997 22.622 14.997 36.203 0 13.577-5.393 26.603-14.997 36.203-9.6 9.604-22.622 14.997-36.203 14.997h-614.4c-13.579 0-26.602-5.393-36.204-14.997-9.602-9.6-14.996-22.626-14.996-36.203z"
+        ],
+        "attrs": [
+          {},
+          {},
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "heroicons-solid_menu"
+        ]
+      },
+      "attrs": [
+        {},
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 154,
+        "id": 0,
+        "name": "hero-icons",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 14
     }
   ],
   "height": 1024,
