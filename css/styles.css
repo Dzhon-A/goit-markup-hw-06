@@ -30,6 +30,7 @@ ul {
 img {
 	display: block;
     max-width: 100%;
+    height: auto;
 }
 
 h1, h2, h3 {
@@ -156,7 +157,7 @@ p {
         rgba(46,47,66,0.7),
         rgba(46,47,66,0.7)
     ),
-    url("../images/hero.jpg");
+    url("../images/Dark-bg.jpg");
 
    background-size: cover;
     background-position: 50% 30%;
@@ -181,7 +182,7 @@ p {
             rgba(46,47,66,0.7),
             rgba(46,47,66,0.7)
         ),
-        url("../images/hero@2x.jpg");
+        url("../images/Dark-bg@2x.jpg");
     }
 }
 
@@ -1097,7 +1098,8 @@ color: #fff;
         rgba(46,47,66,0.7),
         rgba(46,47,66,0.7)
     ),
-    url("../images/hero.jpg");
+    url("../images/Dark-bg-tablet.jpg");
+    
 }
 
 .main-title {
@@ -1217,7 +1219,7 @@ color: #fff;
         rgba(46,47,66,0.7),
         rgba(46,47,66,0.7)
     ),
-    url("../images/hero@2x.jpg");
+    url("../images/Dark-bg-tablet@2x.jpg");
 }
 }
 
