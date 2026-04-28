@@ -149,8 +149,8 @@ letter-spacing: 0.04em;
     align-items: center;
 }
 
-.contacts-list {
-   display: none;
+.contacts {
+  display: none;
 }
 
 .main-page {
@@ -1057,6 +1057,10 @@ color: #fff;
     padding: 0;
     gap: 12px;
 }
+
+  .contacts {
+    display: flex;
+  }
 
 .nav {
     display: flex;
